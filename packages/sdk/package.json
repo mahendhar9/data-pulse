@@ -1,0 +1,12 @@
+{
+  "name": "@data-pulse/sdk",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "dev": "tsc -w"
+  }
+}
